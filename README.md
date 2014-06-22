@@ -26,8 +26,9 @@ Steps to run the run_analysis.R script:
 >tidyData <- run_analysis()
 ```
 
-      Note: If the data has been previously downloaded from the course website, then this script will recognize that and not download it again.
-
-Review the results of the tidyData data frame at your leisure.  
-
+Note: If the data has been previously downloaded from the course website, then this script will recognize that and not download it again.
+ 
 The contents of the tidyData data frame and how it was cleaned up and summarized are explained in the CodeBook.md.
+
+
+Review the results of the tidyData data frame at your leisure. 
