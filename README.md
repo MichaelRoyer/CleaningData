@@ -1,9 +1,17 @@
-How to run the run_analysis.R script.
+Overview
 ========================================================
+The course project purposes to demonstrate collecting, working with, and cleaning a data set with the goal in mind to prepare tidy data that can be used for review and further analysis.  
 
-This readme explains how to run the run_analysis.R script that downloads the data from the course website and processes it for your review and further analysis.
+The CodeBook.md (from this repo) contains a brief description of the source data experiments conducted, a description of the kind of data collected and selected from that source data, the work performed to summarize the source data of interest, and the resulting summarized tidy data that was required by this assignment.  
 
+This README.md document describes the system requirements and the steps required to create the tidy data.  Creating the tidy data primarily involves running the run_analysis.R script documented below in the How To Create The Data section.  The run_analysis.R script summarizes the source data of interest into the tidy data and an explanation of it is in the Work Performed To Summarize Source Data section in the CodeBook.md.  It seemed more fitting to describe the transformations that were applied to the source data to get it to the tidy data (i.e., what the run_analysis.R script does) there rather than here giving a complete picture from start to finish.
+
+System Requirements
+===================
 Requirements: Must have R installed.  RStudio is not required, but is recommended.
+
+How To Create The Data
+======================
 
 Steps to run the run_analysis.R script:
 
@@ -26,7 +34,4 @@ Steps to run the run_analysis.R script:
 >tidyData <- run_analysis()
 ```
 
-If the data has been previously downloaded from the course website, then this script will recognize that and not download it again.  The contents of the tidyData data frame and how it was cleaned up and summarized are explained in the CodeBook.md.
-
-
-Please, review the results of the tidyData data frame at your leisure.  Thank you! 
+If the data has been previously downloaded from the course website, then this script will recognize that and not download it again. 
