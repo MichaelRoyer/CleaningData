@@ -7,7 +7,7 @@ Requirements: Must have R installed.  RStudio is not required, but is recommende
 
 Steps to run the run_analysis.R script:
 
-* Download the run_analysis.R script (from the repo) to the desired working directory.
+* Download the run_analysis.R script (from this repo) to the desired working directory.
 
 * Start R or RStudio, depending on user's preference.
 
