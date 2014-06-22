@@ -55,8 +55,8 @@ Resulting Summarized Data
 =========================================
 The "tidyData" data frame contains the following data:
 
-#|Column Name|Data Type|Short Description
----|----------|----------|-----------------
+#|Column Name|Data Type|Short Description  
+---|----------|----------|-----------------  
 1|Subject_ID|Integer|An id given to a subject of the study.  
 2|Activity|Factor|An activity studied in the evaluation.  Values are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING.  
 3|Time_Body_Accelerometer_Mean_Freq_X|Numeric|An average of a subject's activity measured mean frequency for an accelerometer captured time domain body acceration signal in the x direction.  
