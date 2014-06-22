@@ -53,7 +53,9 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
-For more information about this dataset contact: activityrecognition@smartlab.ws
+- For more information about this data contact: activityrecognition@smartlab.ws.  
+- The above datasets can be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip; however, this is not necessary as this is automatically downloaded for you when you run the run_analysis.R script mentioned later.  
+
 
 ### License:
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
