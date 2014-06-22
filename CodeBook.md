@@ -57,85 +57,85 @@ The "tidyData" data frame contains the following data:
 
 #|Column Name|Data Type|Short Description
 ---|----------|----------|-----------------
-1|Subject_ID|Integer|An id given to a subject of the study.
-2|Activity|Factor|An activity studied in the evaluation.  Values are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING.
-3|Time_Body_Accelerometer_Mean_Freq_X|Numeric|An average of a subject's activity measured mean frequency for an accelerometer captured time domain body acceration signal in the x direction.
-4|Time_Body_Accelerometer_Mean_Freq_Y|Numeric|An average of a subject's activity measured mean frequency for an accelerometer captured time domain body acceration signal in the y direction.
-5|Time_Body_Accelerometer_Mean_Freq_Z|Numeric|An average of a subject's activity measured mean frequency for an accelerometer captured time domain body acceration signal in the z direction.
-6|Time_Body_Accelerometer_Mean_X|Numeric|An average of a subject's activity measured mean for an accelerometer captured time domain body acceration signal in the x direction.
-7|Time_Body_Accelerometer_Mean_Y|Numeric|An average of a subject's activity measured mean for an accelerometer captured time domain body acceration signal in the y direction.
-8|Time_Body_Accelerometer_Mean_Z|Numeric|An average of a subject's activity measured mean for an accelerometer captured time domain body acceration signal in the z direction.
-9|Time_Body_Accelerometer_SD_X|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured time domain body acceration signal in the x direction.
-10|Time_Body_Accelerometer_SD_Y|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured time domain body acceration signal in the y direction.
-11|Time_Body_Accelerometer_SD_Z|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured time domain body acceration signal in the z direction.
-12|Time_Body_Accelerometer_Jerk_Signal_Mean_Freq_X|Numeric|An average of a subject's activity measured mean frequency for an accelerometer captured time domain body acceration jerk signal in the x direction.
-13|Time_Body_Accelerometer_Jerk_Signal_Mean_Freq_Y|Numeric|An average of a subject's activity measured mean frequency for an accelerometer captured time domain body acceration jerk signal in the y direction.
-14|Time_Body_Accelerometer_Jerk_Signal_Mean_Freq_Z|Numeric|An average of a subject's activity measured mean frequency for an accelerometer captured time domain body acceration jerk signal in the z direction
-15|Time_Body_Accelerometer_Jerk_Signal_Mean_X|Numeric|An average of a subject's activity measured mean for an accelerometer captured time domain body acceration jerk signal in the x direction.
-16|Time_Body_Accelerometer_Jerk_Signal_Mean_Y|Numeric|An average of a subject's activity measured mean for an accelerometer captured time domain body acceration jerk signal in the y direction
-17|Time_Body_Accelerometer_Jerk_Signal_Mean_Z|Numeric|An average of a subject's activity measured mean for an accelerometer captured time domain body acceration jerk signal in the z direction.
-18|Time_Body_Accelerometer_Jerk_Signal_SD_X|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured time domain body acceration jerk signal in the x direction.
-19|Time_Body_Accelerometer_Jerk_Signal_SD_Y|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured time domain body acceration jerk signal in the y direction.
-20|Time_Body_Accelerometer_Jerk_Signal_SD_Z|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured time domain body acceration jerk signal in the z direction.
-21|Time_Body_Accelerometer_Mag_Mean|Numeric|An average of a subject's activity measured mean for an accelerometer captured time domain body acceration magnitude signal. 
-22|Time_Body_Accelerometer_Mag_Mean_Freq|Numeric|An average of a subject's activity measured mean frequency for an accelerometer captured time domain body acceration magnitude signal. 
-23|Time_Body_Accelerometer_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured time domain body acceration magnitude signal. 
-24|Time_Body_Accelerometer_Jerk_Signal_Mag_Mean|Numeric|An average of a subject's activity measured mean for an accelerometer captured time domain body acceration magnitude jerk signal. 
-25|Time_Body_Accelerometer_Jerk_Signal_Mag_Mean_Freq|Numeric|An average of a subject's activity measured mean frequency for an accelerometer captured time domain body acceration magnitude jerk signal. 
-26|Time_Body_Accelerometer_Jerk_Signal_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured time domain body acceration magnitude jerk signal. 
-27|Freq_Body_Accelerometer_Jerk_Signal_Mean_X|Numeric|An average of a subject's activity measured mean for an accelerometer captured frequency domain body acceration jerk signal in the x direction.
-28|Freq_Body_Accelerometer_Jerk_Signal_Mean_Y|Numeric|An average of a subject's activity measured mean for an accelerometer captured frequency domain body acceration jerk signal in the y direction.
-29|Freq_Body_Accelerometer_Jerk_Signal_Mean_Z|Numeric|An average of a subject's activity measured mean for an accelerometer captured frequency domain body acceration jerk signal in the z direction.
-30|Freq_Body_Accelerometer_Jerk_Signal_SD_X|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured frequency domain body acceration jerk signal in the x direction.
-31|Freq_Body_Accelerometer_Jerk_Signal_SD_Y|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured frequency domain body acceration jerk signal in the y direction.
-32|Freq_Body_Accelerometer_Jerk_Signal_SD_Z|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured frequency domain body acceration jerk signal in the z direction.
-33|Freq_Body_Accelerometer_Jerk_Signal_Mag_Mean|Numeric|An average of a subject's activity measured mean for an accelerometer captured frequency domain body acceration magnitude jerk signal. 
-34|Freq_Body_Accelerometer_Jerk_Signal_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured frequency domain body acceration magnitude jerk signal. 
-35|Time_Body_Gyroscope_Mean_Freq_X|Numeric|An average of a subject's activity measured mean frequency for an gyroscope captured time domain body acceration signal in the x direction.
-36|Time_Body_Gyroscope_Mean_Freq_Y|Numeric|An average of a subject's activity measured mean frequency for an gyroscope captured time domain body acceration signal in the y direction.
-37|Time_Body_Gyroscope_Mean_Freq_Z|Numeric|An average of a subject's activity measured mean frequency for an gyroscope captured time domain body acceration signal in the z direction.
-38|Time_Body_Gyroscope_Mean_X|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain body acceration signal in the x direction.
-39|Time_Body_Gyroscope_Mean_Y|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain body acceration signal in the y direction.
-40|Time_Body_Gyroscope_Mean_Z|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain body acceration signal in the z direction.
-41|Time_Body_Gyroscope_SD_X|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain body acceration signal in the x direction.
-42|Time_Body_Gyroscope_SD_Y|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain body acceration signal in the y direction.
-43|Time_Body_Gyroscope_SD_Z|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain body acceration signal in the z direction.
-44|Time_Body_Gyroscope_Mag_Mean|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain body acceration magnitude signal. 
-45|Time_Body_Gyroscope_Mag_Mean_Freq|Numeric|An average of a subject's activity measured mean frequency for an gyroscope captured time domain body acceration magnitude signal. 
-46|Time_Body_Gyroscope_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain body acceration magnitude signal. 
-47|Time_Body_Gyroscope_Jerk_Signal_Mag_Mean|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain body acceration magnitude jerk signal. 
-48|Time_Body_Gyroscope_Jerk_Signal_Mag_Mean_Freq|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain body acceration magnitude jerk signal. 
-49|Time_Body_Gyroscope_Jerk_Signal_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain body acceration magnitude jerk signal. 
-50|Time_Gravity_Accelerometer_Mean_X|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain gravity acceleration signal in the x direction.
-51|Time_Gravity_Accelerometer_Mean_Y|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain gravity acceleration signal in the y direction.
-52|Time_Gravity_Accelerometer_Mean_Z|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain gravity acceleration signal in the z direction.
-53|Time_Gravity_Accelerometer_SD_X|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain gravity acceleration signal in the x direction.
-54|Time_Gravity_Accelerometer_SD_Y|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain gravity acceleration signal in the y direction.
-55|Time_Gravity_Accelerometer_SD_Z|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain gravity acceleration signal in the z direction.
-56|Time_Gravity_Accelerometer_Mag_Mean|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain gravity acceleration magnitude signal. 
-57|Time_Gravity_Accelerometer_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain gravity acceleration magnitude signal. 
-58|Freq_Body_Accelerometer_Mean_X|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the x direction.
-59|Freq_Body_Accelerometer_Mean_Y|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the y direction.
-60|Freq_Body_Accelerometer_Mean_Z|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the z direction.
-61|Freq_Body_Accelerometer_SD_X|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the x direction.
-62|Freq_Body_Accelerometer_SD_Y|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the y direction.
-63|Freq_Body_Accelerometer_SD_Z|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the z direction.
-64|Freq_Body_Gyroscope_Jerk_Signal_Mean_X|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the x direction.
-65|Freq_Body_Gyroscope_Jerk_Signal_Mean_Y|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the y direction.
-66|Freq_Body_Gyroscope_Jerk_Signal_Mean_Z|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the z direction.
-67|Freq_Body_Gyroscope_Jerk_Signal_SD_X|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the x direction.
-68|Freq_Body_Gyroscope_Jerk_Signal_SD_Y|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the y direction.
-69|Freq_Body_Gyroscope_Jerk_Signal_SD_Z|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the z direction.
-70|Freq_Body_Gyroscope_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal 
-71|Freq_Body_Gyroscope_Mean_X|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the x direction.
-72|Freq_Body_Gyroscope_Mean_Y|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the y direction.
-73|Freq_Body_Gyroscope_Mean_Z|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the z direction.
-74|Freq_Body_Gyroscope_SD_X|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the x direction.
-75|Freq_Body_Gyroscope_SD_Y|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the y direction.
-76|Freq_Body_Gyroscope_SD_Z|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the z direction.
-77|Freq_Body_Accelerometer_Mag_Mean|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration magnitude signal. 
-78|Freq_Body_Accelerometer_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration magnitude signal. 
-79|Freq_Body_Gyroscope_Jerk_Signal_Mag_Mean|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration magnitude signal. 
-80|Freq_Body_Gyroscope_Jerk_Signal_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration magnitude signal. 
-81|Freq_Body_Gyroscope_Mag_Mean|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration magnitude signal. 
+1|Subject_ID|Integer|An id given to a subject of the study.  
+2|Activity|Factor|An activity studied in the evaluation.  Values are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING.  
+3|Time_Body_Accelerometer_Mean_Freq_X|Numeric|An average of a subject's activity measured mean frequency for an accelerometer captured time domain body acceration signal in the x direction.  
+4|Time_Body_Accelerometer_Mean_Freq_Y|Numeric|An average of a subject's activity measured mean frequency for an accelerometer captured time domain body acceration signal in the y direction.  
+5|Time_Body_Accelerometer_Mean_Freq_Z|Numeric|An average of a subject's activity measured mean frequency for an accelerometer captured time domain body acceration signal in the z direction.  
+6|Time_Body_Accelerometer_Mean_X|Numeric|An average of a subject's activity measured mean for an accelerometer captured time domain body acceration signal in the x direction.  
+7|Time_Body_Accelerometer_Mean_Y|Numeric|An average of a subject's activity measured mean for an accelerometer captured time domain body acceration signal in the y direction.  
+8|Time_Body_Accelerometer_Mean_Z|Numeric|An average of a subject's activity measured mean for an accelerometer captured time domain body acceration signal in the z direction.  
+9|Time_Body_Accelerometer_SD_X|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured time domain body acceration signal in the x direction.  
+10|Time_Body_Accelerometer_SD_Y|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured time domain body acceration signal in the y direction.  
+11|Time_Body_Accelerometer_SD_Z|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured time domain body acceration signal in the z direction.  
+12|Time_Body_Accelerometer_Jerk_Signal_Mean_Freq_X|Numeric|An average of a subject's activity measured mean frequency for an accelerometer captured time domain body acceration jerk signal in the x direction.  
+13|Time_Body_Accelerometer_Jerk_Signal_Mean_Freq_Y|Numeric|An average of a subject's activity measured mean frequency for an accelerometer captured time domain body acceration jerk signal in the y direction.  
+14|Time_Body_Accelerometer_Jerk_Signal_Mean_Freq_Z|Numeric|An average of a subject's activity measured mean frequency for an accelerometer captured time domain body acceration jerk signal in the z direction.  
+15|Time_Body_Accelerometer_Jerk_Signal_Mean_X|Numeric|An average of a subject's activity measured mean for an accelerometer captured time domain body acceration jerk signal in the x direction.  
+16|Time_Body_Accelerometer_Jerk_Signal_Mean_Y|Numeric|An average of a subject's activity measured mean for an accelerometer captured time domain body acceration jerk signal in the y direction.    
+17|Time_Body_Accelerometer_Jerk_Signal_Mean_Z|Numeric|An average of a subject's activity measured mean for an accelerometer captured time domain body acceration jerk signal in the z direction.  
+18|Time_Body_Accelerometer_Jerk_Signal_SD_X|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured time domain body acceration jerk signal in the x direction.  
+19|Time_Body_Accelerometer_Jerk_Signal_SD_Y|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured time domain body acceration jerk signal in the y direction.  
+20|Time_Body_Accelerometer_Jerk_Signal_SD_Z|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured time domain body acceration jerk signal in the z direction.  
+21|Time_Body_Accelerometer_Mag_Mean|Numeric|An average of a subject's activity measured mean for an accelerometer captured time domain body acceration magnitude signal.   
+22|Time_Body_Accelerometer_Mag_Mean_Freq|Numeric|An average of a subject's activity measured mean frequency for an accelerometer captured time domain body acceration magnitude signal.  
+23|Time_Body_Accelerometer_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured time domain body acceration magnitude signal.  
+24|Time_Body_Accelerometer_Jerk_Signal_Mag_Mean|Numeric|An average of a subject's activity measured mean for an accelerometer captured time domain body acceration magnitude jerk signal.   
+25|Time_Body_Accelerometer_Jerk_Signal_Mag_Mean_Freq|Numeric|An average of a subject's activity measured mean frequency for an accelerometer captured time domain body acceration magnitude jerk signal.   
+26|Time_Body_Accelerometer_Jerk_Signal_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured time domain body acceration magnitude jerk signal.   
+27|Freq_Body_Accelerometer_Jerk_Signal_Mean_X|Numeric|An average of a subject's activity measured mean for an accelerometer captured frequency domain body acceration jerk signal in the x direction.  
+28|Freq_Body_Accelerometer_Jerk_Signal_Mean_Y|Numeric|An average of a subject's activity measured mean for an accelerometer captured frequency domain body acceration jerk signal in the y direction.  
+29|Freq_Body_Accelerometer_Jerk_Signal_Mean_Z|Numeric|An average of a subject's activity measured mean for an accelerometer captured frequency domain body acceration jerk signal in the z direction.  
+30|Freq_Body_Accelerometer_Jerk_Signal_SD_X|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured frequency domain body acceration jerk signal in the x direction.  
+31|Freq_Body_Accelerometer_Jerk_Signal_SD_Y|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured frequency domain body acceration jerk signal in the y direction.  
+32|Freq_Body_Accelerometer_Jerk_Signal_SD_Z|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured frequency domain body acceration jerk signal in the z direction.  
+33|Freq_Body_Accelerometer_Jerk_Signal_Mag_Mean|Numeric|An average of a subject's activity measured mean for an accelerometer captured frequency domain body acceration magnitude jerk signal.  
+34|Freq_Body_Accelerometer_Jerk_Signal_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an accelerometer captured frequency domain body acceration magnitude jerk signal.   
+35|Time_Body_Gyroscope_Mean_Freq_X|Numeric|An average of a subject's activity measured mean frequency for an gyroscope captured time domain body acceration signal in the x direction.  
+36|Time_Body_Gyroscope_Mean_Freq_Y|Numeric|An average of a subject's activity measured mean frequency for an gyroscope captured time domain body acceration signal in the y direction.  
+37|Time_Body_Gyroscope_Mean_Freq_Z|Numeric|An average of a subject's activity measured mean frequency for an gyroscope captured time domain body acceration signal in the z direction.  
+38|Time_Body_Gyroscope_Mean_X|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain body acceration signal in the x direction.  
+39|Time_Body_Gyroscope_Mean_Y|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain body acceration signal in the y direction.  
+40|Time_Body_Gyroscope_Mean_Z|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain body acceration signal in the z direction.  
+41|Time_Body_Gyroscope_SD_X|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain body acceration signal in the x direction.  
+42|Time_Body_Gyroscope_SD_Y|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain body acceration signal in the y direction.  
+43|Time_Body_Gyroscope_SD_Z|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain body acceration signal in the z direction.  
+44|Time_Body_Gyroscope_Mag_Mean|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain body acceration magnitude signal.   
+45|Time_Body_Gyroscope_Mag_Mean_Freq|Numeric|An average of a subject's activity measured mean frequency for an gyroscope captured time domain body acceration magnitude signal.   
+46|Time_Body_Gyroscope_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain body acceration magnitude signal.   
+47|Time_Body_Gyroscope_Jerk_Signal_Mag_Mean|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain body acceration magnitude jerk signal.   
+48|Time_Body_Gyroscope_Jerk_Signal_Mag_Mean_Freq|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain body acceration magnitude jerk signal.   
+49|Time_Body_Gyroscope_Jerk_Signal_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain body acceration magnitude jerk signal.   
+50|Time_Gravity_Accelerometer_Mean_X|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain gravity acceleration signal in the x direction.  
+51|Time_Gravity_Accelerometer_Mean_Y|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain gravity acceleration signal in the y direction.  
+52|Time_Gravity_Accelerometer_Mean_Z|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain gravity acceleration signal in the z direction.  
+53|Time_Gravity_Accelerometer_SD_X|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain gravity acceleration signal in the x direction.  
+54|Time_Gravity_Accelerometer_SD_Y|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain gravity acceleration signal in the y direction.  
+55|Time_Gravity_Accelerometer_SD_Z|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain gravity acceleration signal in the z direction.  
+56|Time_Gravity_Accelerometer_Mag_Mean|Numeric|An average of a subject's activity measured mean for an gyroscope captured time domain gravity acceleration magnitude signal.  
+57|Time_Gravity_Accelerometer_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured time domain gravity acceleration magnitude signal.   
+58|Freq_Body_Accelerometer_Mean_X|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the x direction.  
+59|Freq_Body_Accelerometer_Mean_Y|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the y direction.  
+60|Freq_Body_Accelerometer_Mean_Z|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the z direction.  
+61|Freq_Body_Accelerometer_SD_X|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the x direction.  
+62|Freq_Body_Accelerometer_SD_Y|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the y direction.  
+63|Freq_Body_Accelerometer_SD_Z|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the z direction.  
+64|Freq_Body_Gyroscope_Jerk_Signal_Mean_X|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the x direction.  
+65|Freq_Body_Gyroscope_Jerk_Signal_Mean_Y|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the y direction.  
+66|Freq_Body_Gyroscope_Jerk_Signal_Mean_Z|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the z direction.  
+67|Freq_Body_Gyroscope_Jerk_Signal_SD_X|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the x direction.  
+68|Freq_Body_Gyroscope_Jerk_Signal_SD_Y|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the y direction.  
+69|Freq_Body_Gyroscope_Jerk_Signal_SD_Z|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the z direction.  
+70|Freq_Body_Gyroscope_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal.   
+71|Freq_Body_Gyroscope_Mean_X|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the x direction.  
+72|Freq_Body_Gyroscope_Mean_Y|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the y direction.  
+73|Freq_Body_Gyroscope_Mean_Z|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration signal in the z direction.  
+74|Freq_Body_Gyroscope_SD_X|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the x direction.  
+75|Freq_Body_Gyroscope_SD_Y|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the y direction.  
+76|Freq_Body_Gyroscope_SD_Z|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration signal in the z direction.  
+77|Freq_Body_Accelerometer_Mag_Mean|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration magnitude signal.   
+78|Freq_Body_Accelerometer_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration magnitude signal.  
+79|Freq_Body_Gyroscope_Jerk_Signal_Mag_Mean|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration magnitude signal.  
+80|Freq_Body_Gyroscope_Jerk_Signal_Mag_SD|Numeric|An average of a subject's activity measured standard deviation for an gyroscope captured frequency domain body acceration magnitude signal.    
+81|Freq_Body_Gyroscope_Mag_Mean|Numeric|An average of a subject's activity measured mean for an gyroscope captured frequency domain body acceration magnitude signal.  
 
