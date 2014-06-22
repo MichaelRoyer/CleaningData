@@ -18,7 +18,7 @@ run_analysis <- function() {
         download.file(fileUrl,downloadZip)
     }
 
-##  Unzip the downloaded file (if nt already unzipped).
+##  Unzip the downloaded file (if not already unzipped).
     if (!file.exists("./UCI HAR Dataset")) {
         message("Unzipping project data.")
         unzip(downloadZip)
@@ -118,7 +118,7 @@ run_analysis <- function() {
 ##  Reset the working directory back to the original setting.
     setwd(wd)
 
-##  Return a list containing tidy and tidy_avgs.
+##  Return results.
     result <- tidy_Avgs
     return(result)
 
